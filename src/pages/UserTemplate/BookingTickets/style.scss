@@ -1,0 +1,16 @@
+.seat {
+  border: 1px solid white;
+}
+
+.seatSold {
+  background-color: red;
+  cursor: no-drop;
+}
+
+.seatChoosing {
+  background-color: blue;
+}
+
+.clip-path-custom {
+  clip-path: polygon(30px 0%, calc(100% - 30px) 0%, 100% 100%, 0% 100%);
+}
